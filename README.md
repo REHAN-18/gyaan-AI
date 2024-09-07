@@ -9,10 +9,10 @@ GYAAN.AI is a full-stack ChatGPT application built with the MERN stack and Googl
 - **MongoDB**: NoSQL database for storing user data and chat histories.
 - **Google Gemini AI**: Advanced AI integration for chat functionality.
 
-**Clone the Repository**
+ **Clone the Repository**
 
     ```bash
-    https://github.com/REHAN-18/gyaan-AI.git
+    git clone https://github.com/REHAN-18/gyaan-AI.git
     cd gyaan-ai
     ```
 
