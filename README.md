@@ -1,6 +1,6 @@
 # GYAAN.AI
 
-GYAAN.AI is a full-stack ChatGPT application built with the MERN stack and Google Gemini AI. It provides a seamless chat experience using React, Express, MongoDB, and the latest AI technology from Google.
+GYAAN.AI is a full-stack ChatGPT application built with the MERN stack and Google Gemini AI. It provides a seamless chat experience using React, Express, MongoDB, and the latest AI technology from Google Gemini.
 
 ## Features
 
