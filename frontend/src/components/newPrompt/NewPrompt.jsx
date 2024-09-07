@@ -16,13 +16,14 @@ const NewPrompt = ({ data }) => {
     aiData: {},
   });
 
+  // Initialize the chat with history only if valid data exists
   const chat = model.startChat({
-    history: [
-      data?.history.map(({ role, parts }) => ({
-        role,
-        parts: [{ text: parts[0].text }],
-      })),
-    ],
+    history: data?.history?.length > 0
+      ? data.history.map(({ role, parts }) => ({
+          role,
+          parts: parts?.length > 0 && parts[0]?.text ? [{ text: parts[0].text }] : [],
+        }))
+      : [],
     generationConfig: {
       // maxOutputTokens: 100,
     },
@@ -102,7 +103,6 @@ const NewPrompt = ({ data }) => {
     add(text, false);
   };
 
-  // IN PRODUCTION WE DON'T NEED IT
   const hasRun = useRef(false);
 
   useEffect(() => {
@@ -146,3 +146,4 @@ const NewPrompt = ({ data }) => {
 };
 
 export default NewPrompt;
+
