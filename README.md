@@ -8,3 +8,27 @@ GYAAN.AI is a full-stack ChatGPT application built with the MERN stack and Googl
 - **Express Backend**: RESTful API for handling requests and responses.
 - **MongoDB**: NoSQL database for storing user data and chat histories.
 - **Google Gemini AI**: Advanced AI integration for chat functionality.
+
+## Running the Application
+
+To run the GYAAN.AI application, follow these steps:
+
+1. **Start the Backend Server:**
+
+    ```bash
+    cd backend
+    npm run dev
+    ```
+
+    This starts the backend server, typically on `http://localhost:5000`.
+
+2. **Start the Frontend Development Server:**
+
+    ```bash
+    cd ../frontend
+    npm start
+    ```
+
+    This starts the frontend development server, typically on `http://localhost:3000`.
+
+The frontend will communicate with the backend to provide the chat functionality.
