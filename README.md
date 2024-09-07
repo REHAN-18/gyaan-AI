@@ -11,10 +11,10 @@ GYAAN.AI is a full-stack ChatGPT application built with the MERN stack and Googl
 
  **Clone the Repository**
 
-    ```bash
+```bash
     git clone https://github.com/REHAN-18/gyaan-AI.git
     cd gyaan-ai
-    ```
+```
 
 
 ## Running the Application
